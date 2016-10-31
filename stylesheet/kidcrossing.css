@@ -1,12 +1,12 @@
+/* Custom Font */
 @font-face {
     font-family: "crayons";
     src: url(/fonts/dk-crayon-crumble.ttf) format("truetype");
 }
 
-h1.crayons { 
+.crayons, h1.crayons, h2.crayons, h3.crayons, h4.crayons, h5.crayons, h5.crayons{ 
     font-family: "crayons", Verdana, Tahoma;
 }
-
 
 /* Custom Social Media Icons */
 
@@ -19,4 +19,42 @@ content: "\f16d";
 font-family: FontAwesome;
 font-size:14px;
 color:#fff
+}
+
+/* Text-related custom stuff */
+h1.crayons.headliner{
+	border: 15px;
+	border-color: black;
+}
+
+h3.tagline{
+	margin-left:.75em;
+	margin-right:1.5em;
+	background:#fff;
+	font-size: 2em;
+}
+.home-block .home-content{
+	background:#fff;
+	border-radius: 15px;
+	padding: 1.5em 1.5em 1.5em 1.5em;
+	margin: 1.5em 1.5em 1.5em 1.5em;
+}
+.home-block .home-content p{
+	margin:1.5em 1.5em 1.5em 1.5em;
+	padding: 0 0 0 0;
+	max-width: 90%;
+	text-align: left;
+	color:#000;
+}
+
+/* Logo Stuff */
+.social-buttons .main-logo{
+	height:2em;
+	width:10em;
+	margin-left: 3em;
+	margin-right: 3em;
+}
+.main-logo img{
+	height:100%;
+	width:100%;
 }
