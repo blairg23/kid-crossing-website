@@ -4,7 +4,7 @@
     src: url(/fonts/dk-crayon-crumble.ttf) format("truetype");
 }
 
-.crayons, h1.crayons, h2.crayons, h3.crayons, h4.crayons, h5.crayons, h5.crayons{ 
+.crayons, h1.crayons, h2.crayons, h3.crayons, h4.crayons, h5.crayons, h6.crayons{ 
     font-family: "crayons", Verdana, Tahoma;
 }
 
@@ -19,12 +19,6 @@ content: "\f16d";
 font-family: FontAwesome;
 font-size:14px;
 color:#fff
-}
-
-/* Text-related custom stuff */
-h1.crayons.headliner{
-	border: 15px;
-	border-color: black;
 }
 
 h3.tagline{
@@ -45,6 +39,41 @@ h3.tagline{
 	max-width: 90%;
 	text-align: left;
 	color:#000;
+}
+
+/* Custom Containers */
+/*.info-block{
+	width: 27em;
+	position: relative;	
+	overflow-wrap: break-word; 
+	font-size: .85em;
+	margin: 1.5em;
+	margin-right: 25%;
+	margin-left: 25%; 
+}*/
+.info-block{
+	position: relative;
+	max-width:35em;
+	color:#fff;
+	overflow-wrap: break-word; 
+	font-size: .85em;
+	border-radius:15px;
+	margin: 5%;
+	background:#000
+}
+
+.info-block ul li{
+	padding:20px 15px 25px;
+}
+
+.normal-text{
+	position: relative;	
+	color:#fff;
+	background:#000;
+	border-radius: 15px;
+	width: 85%;	
+	padding: 1.5em 1.5em 1.5em 1.5em;
+	margin: 1.5em 1.5em 1.5em 1.5em;
 }
 
 /* Logo Stuff */

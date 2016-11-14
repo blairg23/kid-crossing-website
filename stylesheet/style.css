@@ -504,9 +504,9 @@ html.ie7 .icon-home {
 	font-size: 66px;
 	font-weight: 600;
 	letter-spacing:-1px;
-	margin-left: 45px;
-	margin-top: -100px;
-	position: absolute;
+	margin-left: .4em;
+	/*margin-top: -100px;*/
+	/*position: absolute;*/
 	top: 50%;
 	font-family:'Montserrat', sans-serif;
 
@@ -559,7 +559,7 @@ html.ie7 .icon-home {
 /* 6. About Us */
 .photo-img {margin-top:35px; line-height:0px}
 .photo-img img {width:100%}
-.info-block{ position:absolute; width:260px; color:#fff; border-radiua:3px; margin-left:35px; margin-top:80px; background:#000}
+/*.info-block{ position:absolute; width:260px; color:#fff; border-radius:15px; margin-left:35px; margin-top:80px; background:#000}*/
 .info-block ul {overflow:hidden; text-align:left; padding:0px; margin:0px!important}
 .info-block ul li{ display:block; text-align:left; padding:0px; margin:0px!important; padding:20px 25px; border-bottom:1px rgba(255,255,255,0.4) solid; }
 .info-block ul li:last-child{ border-bottom:none} 
