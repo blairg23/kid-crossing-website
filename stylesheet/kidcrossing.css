@@ -41,16 +41,19 @@ h3.tagline{
 	color:#000;
 }
 
+/* Custom Glyphicons */
+img.glyphicon{
+	width: 1.15em;
+	height: 1.15em;
+}
+
+img.sweater-glyphicon{
+	width: 2.5em;
+	height: 2.5em;
+}
+
 /* Custom Containers */
-/*.info-block{
-	width: 27em;
-	position: relative;	
-	overflow-wrap: break-word; 
-	font-size: .85em;
-	margin: 1.5em;
-	margin-right: 25%;
-	margin-left: 25%; 
-}*/
+
 .info-block{
 	position: relative;
 	max-width:35em;
@@ -74,6 +77,20 @@ h3.tagline{
 	width: 85%;	
 	padding: 1.5em 1.5em 1.5em 1.5em;
 	margin: 1.5em 1.5em 1.5em 1.5em;
+}
+
+.normal-text a.facebook{
+	color :#fff;
+}
+
+.normal-text a.facebook:hover{
+	color: #333;
+	text-decoration: underline;
+}
+
+.box li{
+	text-align: left;
+	margin: 1em;
 }
 
 /* Logo Stuff */
