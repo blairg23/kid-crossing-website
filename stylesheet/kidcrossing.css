@@ -1,0 +1,108 @@
+/* Custom Font */
+@font-face {
+    font-family: "crayons";
+    src: url(/fonts/dk-crayon-crumble.ttf) format("truetype");
+}
+
+.crayons, h1.crayons, h2.crayons, h3.crayons, h4.crayons, h5.crayons, h6.crayons{ 
+    font-family: "crayons", Verdana, Tahoma;
+}
+
+/* Custom Social Media Icons */
+
+.social-buttons a.instagram {
+	background:#000
+}
+
+.social-buttons a.instagram:before {
+content: "\f16d";
+font-family: FontAwesome;
+font-size:14px;
+color:#fff
+}
+
+h3.tagline{
+	margin-left:.75em;
+	margin-right:1.5em;
+	background:#fff;
+	font-size: 2em;
+}
+.home-block .home-content{
+	background:#fff;
+	border-radius: 15px;
+	padding: 1.5em 1.5em 1.5em 1.5em;
+	margin: 1.5em 1.5em 1.5em 1.5em;
+}
+.home-block .home-content p{
+	font-size: 1.5em;
+	margin:1.5em 1.5em 1.5em 1.5em;
+	padding: 0 0 0 0;
+	max-width: 90%;
+	text-align: left;
+	color:#000;
+}
+
+/* Custom Glyphicons */
+img.glyphicon{
+	width: 1.15em;
+	height: 1.15em;
+}
+
+img.sweater-glyphicon{
+	width: 2.5em;
+	height: 2.5em;
+}
+
+/* Custom Containers */
+
+.info-block{
+	position: relative;
+	max-width:35em;
+	color:#fff;
+	overflow-wrap: break-word; 
+	font-size: .85em;
+	border-radius:15px;
+	margin: 5%;
+	background:#000
+}
+
+.info-block ul li{
+	padding:20px 15px 25px;
+}
+
+.normal-text{
+	font-size: 1em;
+	position: relative;	
+	color:#fff;
+	background:#000;
+	border-radius: 15px;
+	width: 85%;	
+	padding: 1.5em 1.5em 1.5em 1.5em;
+	margin: 1.5em 1.5em 1.5em 1.5em;
+}
+
+.normal-text a.facebook{
+	color :#fff;
+}
+
+.normal-text a.facebook:hover{
+	color: #333;
+	text-decoration: underline;
+}
+
+.box li{
+	text-align: left;
+	margin: 1em;
+}
+
+/* Logo Stuff */
+.social-buttons .main-logo{
+	height:2em;
+	width:10em;
+	margin-left: 3em;
+	margin-right: 3em;
+}
+.main-logo img{
+	height:100%;
+	width:100%;
+}
